@@ -13,5 +13,28 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <script>
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "firebase/app";
+      import { getAnalytics } from "firebase/analytics";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyD_cAWqaoNa7XiLb9PEbhDCxGnz6XW3mP8",
+        authDomain: "todo-app-20230107.firebaseapp.com",
+        projectId: "todo-app-20230107",
+        storageBucket: "todo-app-20230107.appspot.com",
+        messagingSenderId: "122610355416",
+        appId: "1:122610355416:web:b1290dd5e8d2c7ed1a1bad",
+        measurementId: "G-LKKRZ4Y5KT"
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>
