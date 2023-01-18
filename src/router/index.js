@@ -10,6 +10,8 @@ import myPage from '../views/myPage.vue'
 
 
 Vue.use(VueRouter)
+// import した vue-router を Vue で使えるように Vue.use() で指定する
+// これにより Vue アプリ上で vue-router を使ったルーティングが可能になる
 
 const routes = [
   {
